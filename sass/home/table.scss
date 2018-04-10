@@ -1,0 +1,16 @@
+.table td, .table th {
+	background: $naranja;
+	font-family: $fuente_nexa_bold;
+	font-size: 1rem;
+	color: $blanco;
+}
+.main__fila--tabla {
+	display: flex;
+	justify-content: flex-start;
+	flex-flow: column nowrap;
+	margin-left: 15%;
+	align-items: flex-start;
+	width: 40%;
+
+}
+

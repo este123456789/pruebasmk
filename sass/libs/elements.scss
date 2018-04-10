@@ -1,0 +1,96 @@
+body * {
+	box-sizing: border-box;
+	font-size: 10px;
+
+}
+
+section {
+	//box-sizing: border-box;
+	//background-color: $blanco;
+
+}
+a {
+	//color: $negro !important;
+}
+a:hover,a:active,a:focus {
+	//color: $negro !important;
+	text-decoration: none !important;
+}
+input[type="number"] {
+	color: $negro;
+    border: none;
+    border-radius: none; 
+    padding: 0;
+}
+input[type="text"] {
+	border: none;
+	outline: none;
+}
+
+.entry-title {
+	display: none;
+}
+
+button:focus,button:active {
+	border: none;
+	outline: none;
+}
+
+.page-content, .entry-content, .entry-summary {
+	margin: 0 !important;
+}
+
+.page .site-content {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+//@include media-breakcppo 
+
+.single .site-content {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.home .site-content {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.filter-blackandwhite {
+	 filter: grayscale(100%);
+}
+.filter-blackandwhite-blue {
+	 filter: grayscale(70%);
+	// filter:url("svg.defs-only#monochrome");
+}
+.defs-only {
+  position: absolute;
+  height: 0; width: 0;
+  overflow: none;
+  left: -100%;
+}
+
+.coupon {
+	//display: none;
+}
+
+#billing_company_field,#billing_postcode_field {
+	display: none !important;
+}
+
+.woocommerce form .form-row {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+.woocommerce table.my_account_orders td {
+	min-width: 1200px;
+}
+
+.woocommerce table.shop_table {
+	border: none !important;
+}

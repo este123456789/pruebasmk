@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Un Café cerca de Tí</title>
+	<link rel="stylesheet" type="text/css" href="./css/cafe.css">
+</head>
+<body>
+
+
+	<main class="main">
+
+		<h1 class="main__h1">Un café para tí</h1>
+
+		<div class="main__mapa" id="map"></div>
+
+		<div class="main__fila">
+
+			<h2 class="main__h2" id="main__h2"><i class="fa fa-arrow-left fa-icon-arrw"></i>Complex los balsos, Medellin, Colombia</h2>
+
+			<button class="main__btnlocaliza" href="#" id="main__btnlocaliza">
+				Mi localización <i class="fa fa-search fa-icon-cross"></i>
+			</button>
+
+		</div>
+		<div class="main__cont">
+			<div class="main__fila--tabla">
+
+				<h3 class="main__h3">Clima: </h3>
+
+				<table class="table">
+
+					<thead>
+						<tr>
+							<td>Temperatura</td>
+							<td>Humedad</td>
+							<td>Descripción</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="temp"></td>
+							<td id="humedad"></td>
+							<td id="descrip"></td>
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+		</div>
+
+	</main>
+
+	<script async defer
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9FtCZqBykXludjPwW4J3OZNKt-gaDPHw&callback=initMap&libraries=places,geometry,weather&ext=.js">
+</script>
+<script type="text/javascript" src="js/scripts.js"></script>
+
+</body>
+</html>

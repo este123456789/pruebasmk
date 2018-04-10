@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'font-awesome';
+  src: 
+       url('./fonts/fontawesome/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/fontawesome/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/fontawesome/fontawesome-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Helvatica_Bold';
+  src: 
+       url('./fonts/helvetica/Helvetica_Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/helvetica/Helvetica_Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/helvetica/Helvetica_Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'lato_regular';
+  src: 
+       url('./fonts/lato/Lato-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/lato/Lato-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/lato/Lato-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'lato_bold';
+  src: 
+       url('./fonts/lato/Lato-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/lato/Lato-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/lato/Lato-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'monserrat_Bold';
+  src: 
+       url('./fonts/montserrat/Montserrat-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/montserrat/Montserrat-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/montserrat/Montserrat-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'monserrat_light';
+  src: 
+       url('./fonts/montserrat/Montserrat-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/montserrat/Montserrat-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/montserrat/Montserrat-Light.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'monserrat_regular';
+  src: 
+       url('./fonts/montserrat/Montserrat-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/montserrat/Montserrat-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/montserrat/Montserrat-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'bree';
+  src: 
+       url('./fonts/bee/BreeSerif-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/bee/BreeSerif-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/bee/BreeSerif-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'raleway-extrabold';
+  src: 
+       url('./fonts/raleway/Raleway-ExtraBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/raleway/Raleway-ExtraBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/raleway/Raleway-ExtraBold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'nexo-bold';
+  src: 
+       url('./fonts/nexa/Nexa-bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/nexa/Nexa-bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/nexa/Nexa-bold.ttf')  format('truetype'); /* Safari, Android, iOS */ 
+}
+
+
+$fuente_helvatica_bold: 'Helvatica_Bold';
+$fuente_lato_regular: 'lato_regular';
+$fuente_lato_bold: 'lato_bold';
+$fuente_monserrat_bold: 'monserrat_Bold';
+$fuente_monserrat_light: 'monserrat_light';
+$fuente_monserrat_regular:  'monserrat_regular';
+$fuente_bree: 'bree';
+$fuente_raleway_extrabold: 'raleway-extrabold'; 
+$fuente_nexa_bold: 'nexobold';
+
+

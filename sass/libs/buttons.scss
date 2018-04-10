@@ -1,0 +1,33 @@
+@mixin togglebuttonx($background,$color_text) {
+		display: block;
+	 	background: $background;
+		position: absolute;
+		width: 30px;
+		top: 3rem;
+		right: 3rem;
+		z-index: 999999999;
+		height: 30px;
+		padding: 0.3rem 0;
+
+		span {
+			display: flex;
+			height: 6px;
+			justify-content: center;
+			color: $color_text;
+			 &:before {
+			position: relative;
+			top: -0.3rem;
+            content: "\f068";
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: 20px;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+          }
+		}
+
+	 }
+
+
+

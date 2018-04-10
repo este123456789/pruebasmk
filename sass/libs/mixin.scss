@@ -1,0 +1,41 @@
+@mixin font_menu() {
+	font-family: $fuente-regular;
+		color: $azul-oscuro;
+		text-transform: uppercase;
+		font-weight: 500;
+		font-size: 0.77rem;
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 0.11em;
+}
+@mixin sombra_producto() {
+	box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.55);
+}
+@mixin placeholder_blanco() {
+		color: $blanco;
+		font-family: $fuente-sourcesans-light;
+		padding-left: 2em;
+		font-size: 0.9rem;
+}
+@mixin submenu_li() {
+	display: flex;
+	flex-direction: column;
+	min-width: 275px;	
+	padding: 1.7rem;
+
+	@include media-breakpoint-down(md){
+		border-bottom: 1px solid #000;
+	    border-radius: 0;
+	    width: 250px;
+	}
+}
+@mixin inputFilter() {
+
+	border: 1px solid $azul-oscuro;
+}
+
+//@include make-row();
+//@include  make-container();
+//	@include make-col(12);
+//	@include make-col-offset(1);
+
